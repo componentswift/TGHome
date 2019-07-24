@@ -12,6 +12,8 @@
 		0651EA4622E713CA007C31FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0651EA4422E713CA007C31FD /* Main.storyboard */; };
 		0651EA4822E713CB007C31FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0651EA4722E713CB007C31FD /* Assets.xcassets */; };
 		0651EA4B22E713CB007C31FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0651EA4922E713CB007C31FD /* LaunchScreen.storyboard */; };
+		0651EA5822E71581007C31FD /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0651EA5722E71581007C31FD /* HomeController.swift */; };
+		0651EA5F22E7175C007C31FD /* Target_TGHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0651EA5E22E7175C007C31FD /* Target_TGHome.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		0651EA4722E713CB007C31FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0651EA4A22E713CB007C31FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0651EA4C22E713CB007C31FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0651EA5722E71581007C31FD /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		0651EA5E22E7175C007C31FD /* Target_TGHome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Target_TGHome.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,7 @@
 		0651EA3F22E713CA007C31FD /* TGHome */ = {
 			isa = PBXGroup;
 			children = (
+				0651EA5222E71484007C31FD /* TGHome */,
 				0651EA4022E713CA007C31FD /* AppDelegate.swift */,
 				0651EA4222E713CA007C31FD /* ViewController.swift */,
 				0651EA4422E713CA007C31FD /* Main.storyboard */,
@@ -62,6 +67,31 @@
 				0651EA4C22E713CB007C31FD /* Info.plist */,
 			);
 			path = TGHome;
+			sourceTree = "<group>";
+		};
+		0651EA5222E71484007C31FD /* TGHome */ = {
+			isa = PBXGroup;
+			children = (
+				0651EA5322E7149D007C31FD /* Classes */,
+			);
+			path = TGHome;
+			sourceTree = "<group>";
+		};
+		0651EA5322E7149D007C31FD /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				0651EA5422E7149D007C31FD /* Targets */,
+				0651EA5722E71581007C31FD /* HomeController.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		0651EA5422E7149D007C31FD /* Targets */ = {
+			isa = PBXGroup;
+			children = (
+				0651EA5E22E7175C007C31FD /* Target_TGHome.swift */,
+			);
+			path = Targets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,6 +165,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0651EA5F22E7175C007C31FD /* Target_TGHome.swift in Sources */,
+				0651EA5822E71581007C31FD /* HomeController.swift in Sources */,
 				0651EA4322E713CA007C31FD /* ViewController.swift in Sources */,
 				0651EA4122E713CA007C31FD /* AppDelegate.swift in Sources */,
 			);
